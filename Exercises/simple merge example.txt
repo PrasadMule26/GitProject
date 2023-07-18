@@ -1,0 +1,104 @@
+
+
+	1.  Create Git Repo
+
+	2.  Add index.html
+
+		<h1>Hello world!</h1>
+		<p>This is the first file in my new Git Repo.</p>
+
+	3.  git status  git add git commit
+
+	4. Add readme.md 
+
+		# hello-world
+		Hello World repository for Git tutorial
+		This is an example repository for the Git tutoial on https://www.w3schools.com
+
+		This repository is built step by step in the tutorial.
+
+	5. Add style.css	
+
+		body {
+			background-color: lightblue;
+		}
+
+		h1 {
+			color: navy;
+			margin-left: 20px;
+		}
+
+	6. Change html file to add css
+
+		<link rel="stylesheet" href="bluestyle.css">
+
+	7. git add all and commit
+
+
+	8.  Add new branch hello-world-images
+
+	9. switch to new branch
+
+	10. Add images to html 
+
+
+		<h1>Hello world!</h1>
+		<div><img src="img_hello_world.jpg" alt="Hello World from Space"style="width:100%;max-width:960px"></div>
+		<p>This is the first file in my new Git Repo.</p>
+		<p>A new line in our file!</p>
+
+	11. git status , add all , commit
+
+
+	12. check content of master and hello-world-images
+
+	13. switch to master branch
+
+	14. Create new branch emergency branch
+
+	15. change index.html file
+
+		<h1>Hello world!</h1>
+		<p>This is the first file in my new Git Repo.</p>
+		<p>This line is here to show how merging works.</p>
+
+	16.  check status , add all , commit
+
+	17. switch to master
+
+	18. merge emergency-fix
+
+	19. delete emergency-fix
+
+	20. switch to hello-world-images
+
+	21. Add another image to html
+
+		<h1>Hello world!</h1>
+		<div><img src="img_hello_world.jpg" alt="Hello World from Space" style="width:100%;max-width:960px"></div>
+		<p>This is the first file in my new Git Repo.</p>
+		<p>A new line in our file!</p>
+		<div><img src="img_hello_git.jpg" alt="Hello Git" style="width:100%;max-width:640px"></div>
+
+	22. check status add,commit
+
+	23. switch to master and merge 
+
+		conflict occurs over index.html
+
+	24. open index.html
+	
+		change 
+
+		resolve conflict
+
+		check status add commit index
+
+	25. delete hello world branch
+
+
+
+			git checkout -b emergency-fix
+
+	
+	    
